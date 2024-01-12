@@ -69,6 +69,12 @@ img {
   clear: both;
   display: table;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
     </style>
 </head>
 <body>
@@ -91,7 +97,10 @@ img {
           <img src="OIP (1).jpeg"  style="width:100%">
         </div>
       </div>
-
     </div>
+    <br>
+    <br>
+    <br>
+    <img src="istockphoto-1189142091-612x612.jpg"  style="width:50%" class="center">  <h1> Our technician is well-versed in the intricacies of various phone models and brands. From hardware malfunctions to software glitches, they have the expertise to identify and resolve issues efficiently.</h1> 
 </body>
 </html>
