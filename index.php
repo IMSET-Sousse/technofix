@@ -6,7 +6,7 @@
     <title>Technofix</title>
     <style>
     body {
-        background-image: url(a87678fc20365ff68fef33ac08adbbb8.jpg);
+        background-color:lightblue
     }
     ul {
   list-style-type: none;
