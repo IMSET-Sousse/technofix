@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technofix</title>
+    <title>services</title>
     <style>
-    body {
+        body {
         background-image: url(a87678fc20365ff68fef33ac08adbbb8.jpg);
     }
     ul {
@@ -84,23 +84,5 @@ img {
         <li><a href="#contact">Contact</a></li>
         <li><a href="#about">About</a></li>
       </ul>
-      <div>
-      <h1> Our repair phone shop is a specialized establishment that offers services to fix or restore malfunctioning or damaged mobile phones. These shops employ technicians skilled in diagnosing and repairing various phone issues, including screen replacements, battery replacements, software troubleshooting, and hardware repairs, ensuring the phones function properly again. </h1>
-      <div class="row">
-        <div class="column">
-          <img src="Images\R.jpeg"  style="width:100%">
-        </div>
-        <div class="column">
-          <img src="34078_hd.jpg"  style="width:100%">
-        </div>
-        <div class="column">
-          <img src="OIP (1).jpeg"  style="width:100%">
-        </div>
-      </div>
-    </div>
-    <br>
-    <br>
-    <br>
-    <img src="istockphoto-1189142091-612x612.jpg"  style="width:50%" class="center">  <h1> Our technician is well-versed in the intricacies of various phone models and brands. From hardware malfunctions to software glitches, they have the expertise to identify and resolve issues efficiently.</h1> 
 </body>
 </html>
