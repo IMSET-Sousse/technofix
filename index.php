@@ -32,7 +32,7 @@ li a:hover {
   background-color: #111;
 }
 div {
-  border: 1px solid gray;
+  border: 0px solid gray;
   padding: 8px;
 }
 
@@ -79,6 +79,7 @@ img {
 </head>
 <body>
     <ul>
+    <li><a href="login.php">login-register</a></li>
         <li><a class="active" href="index.php">Home</a></li>
         <li><a href="services.php">services</a></li>
         <li><a href="#contact">Contact</a></li>
