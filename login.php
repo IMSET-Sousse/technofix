@@ -166,7 +166,7 @@ button{
         <li><a class="active" href="index.php">Home</a></li>
         <li><a href="services.php">services</a></li>
         <li><a href="reviews.php">reviews</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="contact.php">contact us</a></li>
       </ul>
     <div class="background">
         <div class="shape"></div>
