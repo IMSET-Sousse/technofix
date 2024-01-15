@@ -82,7 +82,7 @@ img {
     <li><a href="login.php">login-register</a></li>
         <li><a class="active" href="index.php">Home</a></li>
         <li><a href="services.php">services</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="reviews.php">reviews</a></li>
         <li><a href="#about">About</a></li>
       </ul>
       <div>

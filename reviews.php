@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login-register</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>reviewst</title>
     <style media="screen">
         ul {
   list-style-type: none;
@@ -158,8 +159,12 @@ button{
 .social i{
   margin-right: 4px;
 }
+.checked {
+  color: orange;
+}
     </style>
 </head>
+
 <body>
 <ul>
     <li><a href="login.php">login-register</a></li>
@@ -168,20 +173,59 @@ button{
         <li><a href="reviews.php">reviews</a></li>
         <li><a href="#about">About</a></li>
       </ul>
-    <div class="background">
-        <div class="shape"></div>
-        <div class="shape"></div>
-    </div>
-    <form>
-        <h3>Login/register</h3>
-
-        <label for="username">Username</label>
-        <input type="text" placeholder="Email or Phone" id="username">
-
-        <label for="password">Password</label>
-        <input type="password" placeholder="Password" id="password">
-
-        <button>Login/register</button>
-</div>
+      <br>
+      <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Photos</th>
+      <th scope="col">ratings</th>
+      <th scope="col">comments</th>
+      <th scope="col">Recommendation</th>
+    </tr>
+  </thead>
+  <body class="p-3 m-0 border-0 bd-example m-0 border-0">
+    <tr>
+      <th scope="row"><img src="p1.jpeg" style="width:100px;height:100px;"></th>
+      <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span></td>
+      <td>One of the best repair shops in town fast and trusted. they fixed my phone in 2 days in top of that they got the best prices</td>
+      <td>Yes i would recommend</td>
+    </tr>
+    <tr>
+      <th scope="row"><img src="p2.jpeg" style="width:100px;height:100px;"></th>
+      <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></td>
+      <td>Good experience with this work shop fast workers best prices</td>
+      <td>Yes i would recommend</td>
+    </tr>
+    <tr>
+      <th scope="row"><img src="p3.png" style="width:100px;height:100px;"></th>
+      <td><span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></td>
+      <td>one of the worst repair shops they didn't my phone after 2 weeks </td>
+      <td>No i would not recommend</td>
+    </tr>
+    </tr>
+    <tr>
+      <th scope="row"><img src="p4.jpg" style="width:100px;height:100px;"></th>
+      <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></td>
+      <td>Fixed My Phone But took them a long time</td>
+      <td>No i would not recommend</td>
+    </tr>
+  </tbody>
+</table>
 </body>
 </html>
