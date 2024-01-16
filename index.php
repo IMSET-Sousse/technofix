@@ -189,7 +189,7 @@ img {
         <li><a class="active" href="index.php">Home</a></li>
         <li><a href="services.php">services</a></li>
         <li><a href="reviews.php">reviews</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="contact.php">Contact us</a></li>
       </ul>
       <div>
       <h1> Our repair phone shop is a specialized establishment that offers services to fix or restore malfunctioning or damaged mobile phones. These shops employ technicians skilled in diagnosing and repairing various phone issues, including screen replacements, battery replacements, software troubleshooting, and hardware repairs, ensuring the phones function properly again. </h1>

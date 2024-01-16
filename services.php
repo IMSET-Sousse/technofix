@@ -84,7 +84,7 @@ img {
         <li><a href="services.php">services</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="reviews.php">reviews</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="contact.php">contact us</a></li>
       </ul>
       <h1> Our shop is specialized in : 
         <br> 
