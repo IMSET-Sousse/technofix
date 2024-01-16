@@ -79,28 +79,50 @@ img {
 </head>
 <body>
     <ul>
+    <li><a href="login.php">Login-register</a></li>
         <li><a class="active" href="index.php">Home</a></li>
         <li><a href="services.php">services</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="reviews.php">reviews</a></li>
         <li><a href="#about">About</a></li>
       </ul>
       <h1> Our shop is specialized in : 
         <br> 
         Device Repair: These shops can fix hardware and software issues on electronic devices. This may include screen replacements, battery replacements, fixing water damage, repairing charging ports, and resolving software issues.
+        <img src="smartphone_repair_area.png"  style="width:40%" class="center">
+        <br>
+<br>
 <br>
 Troubleshooting and Diagnostics: Technicians at these shops are often skilled in diagnosing problems with electronic devices. They can identify issues, provide estimates for repairs, and offer solutions.
+<img src="150912194-computer-repair-maintenance-service-center-pc-troubleshooting-computer-diagnostics-concepts-modern.jpg"  style="width:40%" class="center">
+<br>
+<br>
 <br>
 Upgrades: Some fixing technology shops offer hardware upgrades for devices, such as increasing RAM or storage capacity in laptops, upgrading graphics cards in gaming consoles, or installing new components in desktop computers.
+<img src="201080620_upgrade_400.jpg"  style="width:40%" class="center">
+<br>
+<br>
 <br>
 Data Recovery: In cases of data loss due to hardware failure or accidental deletion, these shops may offer data recovery services to retrieve important files and information.
+<img src="Data-Recovery.jpg"  style="width:40%" class="center">
+<br>
+<br>
 <br>
 Software Installation and Configuration: Technicians can assist customers with installing or updating software, configuring settings, and ensuring that devices are running the latest operating systems and applications.
+<img src="software-installation-maxpal.jpg"  style="width:40%" class="center">
+<br>
+<br>
 <br>
 Customization: Some fixing technology shops may offer customization services, allowing customers to personalize their devices with accessories, skins, or modifications.
+<img src="top_10_inspiring_examples_of_brands_offering_product_customization-f.png"  style="width:40%" class="center">
+<br>
+<br>
 <br>
 These shops play a crucial role in extending the lifespan of electronic devices and reducing electronic waste by providing cost-effective solutions for repairs rather than replacing entire devices. Customers often turn to fixing technology shops when their devices encounter problems, seeking professional help to get them back in working order.</h1>
 <br>
- <h1>We fix all of these : </h1>
+<br>
+<br>
+ <h1>The items we fix : </h1>
         <div class="column">
           <img src="1.jpeg"  style="width:100%">
         </div>
