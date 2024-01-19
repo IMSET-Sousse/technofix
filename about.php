@@ -1,4 +1,10 @@
-.hero{
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <style> .hero{
     background: url(https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     widht: px;
     background-position: center;
@@ -182,3 +188,9 @@
   {
     display:inline-block
   }
+</style>
+</head>
+<body>
+    
+</body>
+</html>

@@ -21,7 +21,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="about.php">About</a>
                       </li>
                       <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -54,7 +54,7 @@ class="dropdown-item" href="#">Activities</a></li>
           
               <div class="col-lg-6">
                 
-                  <h1 class="title">Infinity Shop</h1>
+                  <h1 class="title">TShop</h1>
                   <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                   
             
@@ -148,7 +148,7 @@ class="dropdown-item" href="#">Activities</a></li>
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">
-            &copy; Infinity Shop
+            &copy; Tshop
             </p>
           </div>
           </div>
