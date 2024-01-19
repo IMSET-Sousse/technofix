@@ -46,7 +46,7 @@
 class="dropdown-item" href="#">Activities</a></li>
                             <li><a class="dropdown-item" href="#">News</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Contact</a></li>
+                            <li><a class="dropdown-item" href="contact.html">Contact</a></li>
                           </ul>
                        </li>
                   </ul>
