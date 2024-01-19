@@ -10,10 +10,9 @@
   <body> 
     <div class="container header-nav">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">GoShop</a>
-             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"                  aria-expanded="false" aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon"></span>
-              </button>
+            <h5>TShop</h5>
+             
+              
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -28,11 +27,10 @@
                             Page
                           </a>
                           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a
-class="dropdown-item" href="#">Activities</a></li>
-                            <li><a class="dropdown-item" href="#">News</a></li>
+                            <li>
+                            <li><a class="dropdown-item" href="https://www.reuters.com/technology/">News</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Contact</a></li>
+                            <li><a class="dropdown-item" href="contact.php">Contact</a></li>
                           </ul>
                        </li>
                   </ul>
@@ -55,12 +53,13 @@ class="dropdown-item" href="#">Activities</a></li>
               <div class="col-lg-6">
                 
                   <h1 class="title">TShop</h1>
-                  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  <p class="lead">Welcome to TShop, your one-stop destination for cutting-edge technology products and solutions! At Tshop, we're passionate about bringing the latest advancements in the tech world directly to you, making your online shopping experience seamless and enjoyable.
+
+Explore a vast array of high-quality products from leading brands, carefully curated to cater to tech enthusiasts, professionals, and anyone who appreciates the power of innovation. Whether you're looking for the latest smartphones, state-of-the-art laptops, smart home devices, or innovative gadgets, we've got you covered.</p>
                   
             
                   <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                     <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Shop Now</button>
-                   <button type="button" class="btn btn-outline-secondary btn-lg px-4">Read More</button>
                   </div>
                 
             </div>
@@ -122,17 +121,7 @@ class="dropdown-item" href="#">Activities</a></li>
              </i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
           </div>
 
-          <div class="col-xs-6 col-md-3">
-            <h6>Categories</h6>
-            <ul class="footer-links">
-              <li><a href="http://scanfcode.com/category/c-language/">Keyboard</a></li>
-              <li><a href="http://scanfcode.com/category/front-end-development/">Laptop</a></li>
-              <li><a href="http://scanfcode.com/category/back-end-development/">Computer</a></li>
-         
-              <li><a href="http://scanfcode.com/category/android/">Android</a></li>
-              <li><a href="http://scanfcode.com/category/templates/">Monitor</a></li>
-            </ul>
-          </div>
+          
 
           <div class="col-xs-6 col-md-3">
             <h6>Quick Links</h6>

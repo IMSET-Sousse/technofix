@@ -3,194 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>About us</title>
-    <style> .hero{
-    background: url(https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-    widht: px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    padding: 1px; 
-    margin: 0px;
-  
-  }
- 
-  .navbar-brand {
-    font-family: poppins;
-    font-size: 22px !important;
-    color: #000 !important;
-    padding-right: 20px !important;
-  }
-  
- 
-  .nav-item {
-    font-family: poppins;
-    font-size: 16px !important;
-    padding: 0 10px 0 10px;
-  }
-  
 
-    
-  .nav-link.active {
-    background-color: #ffa500 !important;
-    padding: 10px 20px 10px 20px !important;
-    color: #000 !important;
-    border-radius: 5px;
-  }
-  .nav-link.active:hover{
-    color: #fff !important;
-  }
-  
- 
-  
-  .btn.btn-outline-success {
-    background-color: #ffa500 !important;
-    padding: 7px 20px 7px 20px !important;
-    color: #000 !important;
-    border-radius: 5px;
-    border-style: none !important;
-  }
-  .btn.btn-outline-success:hover{
-    color: #fff !important
-  }
-  
-   
-  
-  .form-control {
-    padding: 10px 150px 10px 20px !important;
-    font-family: poppins;
-  }
-  
-  
-  .navbar.navbar-expand-lg.navbar-light {
-    margin-top: px;
-  }
-  
-
-  
-  h1 {
-    color: #fff;
-    font-family: poppins !important;
-    font-size: 60px !important;
-  }
-  
-  p.lead {
-    color: #fff;
-    font-family: poppins !important;
-    font-size: 17px !important;
-    margin-top: 50px;
-  }
-  
-
-  .d-grid.gap-2 {
-    margin-top: 35px !important;
-  }
-  
-
-  .btn.btn-primary {
-    background-color: #ffa500 !important;
-    padding: 8px 20px 8px 20px !important;
-    color: #000 !important;
-    border-radius: 5px;
-    border-style: none !important;
-    font-size: 17px !important;
-  }
-  .btn.btn-primary:hover{
-    color: #fff !important;
-  }
-
-  .btn.btn-outline-secondary {
-    background-color: transparent !important;
-    padding: 8px 10px 8px 10px !important;
-    color: #ffa500 !important;
-    border-radius: 5px;
-    border-style: none !important;
-    font-size: 17px !important;
-  }
-  .btn.btn-outline-secondary:hover{
-    color: #fff !important;
-  }
-  
-
-  img.img-hero {
-    padding-right: 50px;
-    object-fit: cover;
-  }
-
-  img.img-gal {
-    width: 450px !important;
-    height: 298px !important;
-    object-fit: cover !important;
-    padding: 10px;
-  }
-  h1.gal-h1 {
-    margin-bottom: 20px !important;
-  }
-  
-  h1 {
-    margin: 30px 0 40px 0 !important; 
-  }
-  
- 
-  .site-footer
-  {
-    background-color:#26272b;
-    padding:45px 0 30px;
-    font-size:15px;
-    line-height:24px;
-    color:#737373;
-  }
-  .site-footer hr
-  {
-    border-top-color:#bbb;
-    opacity:0.5
-  }
-  .site-footer hr.small
-  {
-    margin:20px 0
-  }
-  .site-footer h6
-  {
-    color:#fff;
-    font-size:16px;
-    text-transform:uppercase;
-    margin-top:5px;
-    letter-spacing:2px
-  }
-  .site-footer a
-  {
-    color:#737373;
-  }
-  .site-footer a:hover
-  {
-    color:#ffa500;
-    text-decoration:none;
-  }
-  .footer-links
-  {
-    padding-left:0;
-    list-style:none
-  }
-  .footer-links li
-  {
-    display:block
-  }
-  .footer-links a
-  {
-    color:#737373
-  }
-  .footer-links a:active,.footer-links a:focus,.footer-links a:hover
-  {
-    color:#ffa500;
-    text-decoration:none;
-  }
-  .footer-links.inline li
-  {
-    display:inline-block
-  }
-</style>
 </head>
 <body>
-    
-</body>
+<div class="container header-nav">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <h5>TShop</h5>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.php">About</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Page
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                            <li><a class="dropdown-item" href="https://www.reuters.com/technology/">News</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="contact.php">Contact</a></li>
+                          </ul>
+                       </li>
+                  </ul>
+                
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+           
+           </div>
+        </nav>
+    </div>
+    <div class="hero">
+    <div class="container">
+           <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                   <img src="https://i.postimg.cc/QthVGQ4R/pngfind-com-razer-mouse-png-4658872.png" class="img-hero d-block mx-lg-auto" alt="Bootstrap Themes" width="880" height="600" loading="lazy">
+              </div>
+          
+              <div class="col-lg-6">
+                
+                  <h1 class="title">TShop</h1>
+                  <p class="lead">Welcome to TShop, your one-stop destination for cutting-edge technology products and solutions! At Tshop, we're passionate about bringing the latest advancements in the tech world directly to you, making your online shopping experience seamless and enjoyable.
+
+Explore a vast array of high-quality products from leading brands, carefully curated to cater to tech enthusiasts, professionals, and anyone who appreciates the power of innovation. Whether you're looking for the latest smartphones, state-of-the-art laptops, smart home devices, or innovative gadgets, we've got you covered.</p>
+</div>
+</div>
+</div>
+            
+                  
+                  <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>Infinity Shop</h6>
+             </i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+          </div>
+
+          
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/about/">About Us</a></li>
+              <li><a href="contact.php">Contact Us</a></li>
+            
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            &copy; Tshop
+            </p>
+          </div>
+          </div>
+        </div>
+      </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
 </html>
