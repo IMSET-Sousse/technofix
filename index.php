@@ -1,213 +1,181 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technofix</title>
-    <style>
-    body {
-        background-color:lightblue
-    }
-    ul {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="index.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-}
-div {
-  border: 1px solid gray;
-  padding: 8px;
-}
-
-h1 {
-  text-align: center;
-  text-transform: uppercase;
-  color: #ff0000;
-}
-
-p {
-  text-indent: 50px;
-  text-align: justify;
-  letter-spacing: 3px;
-}
-
-a {
-  text-decoration: none;
-  color: #008CBA;
-}
-img {
-  border-radius: 50%;
-}
-* {
-  box-sizing: border-box;
-}
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-    </style>
-</head>
-<body>
-    <ul>
-        <li><a class="active" href="index.php">Home</a></li>
-        <li><a href="services.php">services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="#about">About</a></li>
-      </ul>
-      <div>
-      <h1> Our repair phone shop is a specialized establishment that offers services to fix or restore malfunctioning or damaged mobile phones. These shops employ technicians skilled in diagnosing and repairing various phone issues, including screen replacements, battery replacements, software troubleshooting, and hardware repairs, ensuring the phones function properly again. </h1>
+    <title>Camp</title>
+  </head>
+  <body>
+    
+    
+    <!-- Header -->    
+    <div class="container header-nav">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">GoShop</a>
+          
+              
+            <!-- Responsive / Hamburger Menu -->
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"                  aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+              </button>
+          
+          
+              <!-- Navigasi Menu -->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Page
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a
+class="dropdown-item" href="#">Activities</a></li>
+                            <li><a class="dropdown-item" href="#">News</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Contact</a></li>
+                          </ul>
+                       </li>
+                  </ul>
+                
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+           
+           </div>
+        </nav>
+    </div>
+    
+    <!-- Hero Website -->
+    <div class="hero">
+    <div class="container">
+      
+        <!-- Tulisan dan Gambar Sejajar -->
+           <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                   <img src="https://i.postimg.cc/QthVGQ4R/pngfind-com-razer-mouse-png-4658872.png" class="img-hero d-block mx-lg-auto" alt="Bootstrap Themes" width="880" height="600" loading="lazy">
+              </div>
+          
+              <div class="col-lg-6">
+                
+                  <!-- Paragraph dan Teks -->
+                  <h1 class="title">Infinity Shop</h1>
+                  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  
+                  <!-- Button -->
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Shop Now</button>
+                   <button type="button" class="btn btn-outline-secondary btn-lg px-4">Read More</button>
+                  </div>
+                
+            </div>
+        </div>
+    </div>
+      
+    <!-- Gallery -->
+      <div class="container">
+      <h1> Gallery </h1>
       <div class="row">
-        <div class="column">
-          <img src="Images\R.jpeg"  style="width:100%">
+         <div class="col-sm-4">
+       
+           <!-- G1 -->
+           <img class="img-gal" src="https://i.postimg.cc/0jKTV3Gx/bestami-sarikaya-jt-NUt-M0wy5-I-unsplash.jpg" data-mdb-img="https://i.postimg.cc/7L97KZqK/img-1.jpg"
+           alt="Gallery Image 1"/>
+         </div>
+        
+        <!-- G2 -->
+         <div class="col-sm-4">
+             <img class="img-gal" src="https://i.postimg.cc/rwGk6vBw/axville-t-BG35b1ju2-U-unsplash.jpg" data-mdb-img="https://i.postimg.cc/7L97KZqK/img-1.jpg"
+             alt="Gallery Image 1"/>
+         </div>
+        
+        <!-- G3 -->
+          <div class="col-sm-4">
+             <img class="img-gal" src="https://i.postimg.cc/m2CDDpv0/michelle-ding-50u-D7-Hz-OLW8-unsplash.jpg" data-mdb-img="https://i.postimg.cc/7L97KZqK/img-1.jpg"
+             alt="Gallery Image 1"/>
+            </div>
+        
+            <!-- G4 -->
+          <div class="col-sm-4">
+             <img class="img-gal" src="https://i.postimg.cc/7LY0SyDC/GXT-260-Cendor-Headset-Stand.jpg" data-mdb-img="https://i.postimg.cc/7L97KZqK/img-1.jpg"
+             alt="Gallery Image 1"/>
+            </div>
+        
+         <!-- G5 -->
+          <div class="col-sm-4">
+             <img class="img-gal" src="https://i.postimg.cc/wvnNKyNJ/Ninja-Dragons-VX7-Waterproof-Gaming-Keyboard-Set-with-Gaming-Headset-a.jpg" data-mdb-img="https://i.postimg.cc/7L97KZqK/img-1.jpg"
+             alt="Gallery Image 1"/>
+            </div>
+        
+        <!-- G5 -->
+          <div class="col-sm-4">
+             <img class="img-gal" src="https://i.postimg.cc/T2WmV08c/Gaming-RGB-Keyboard-wallpaper-by-Aqoza-TM-bd-Free-on-ZEDGE.jpg" data-mdb-img="https://i.postimg.cc/7L97KZqK/img-1.jpg"
+             alt="Gallery Image 1"/>
+            </div>
+  
         </div>
-        <div class="column">
-          <img src="34078_hd.jpg"  style="width:100%">
-        </div>
-        <div class="column">
-          <img src="OIP (1).jpeg"  style="width:100%">
         </div>
       </div>
-    </div>
-    <br>
-    <br>
-    <br>
-    <img src="istockphoto-1189142091-612x612.jpg"  style="width:50%" class="center">  <h1> Our technician is well-versed in the intricacies of various phone models and brands. From hardware malfunctions to software glitches, they have the expertise to identify and resolve issues efficiently.</h1> 
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technofix</title>
-    <style>
-    body {
-        background-color:lightblue
-    }
-    ul {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
+     
+        
+        <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>Infinity Shop</h6>
+             </i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+          </div>
 
-li {
-  float: left;
-}
+          <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/category/c-language/">Keyboard</a></li>
+              <li><a href="http://scanfcode.com/category/front-end-development/">Laptop</a></li>
+              <li><a href="http://scanfcode.com/category/back-end-development/">Computer</a></li>
+         
+              <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+              <li><a href="http://scanfcode.com/category/templates/">Monitor</a></li>
+            </ul>
+          </div>
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-}
-div {
-  border: 0px solid gray;
-  padding: 8px;
-}
-
-h1 {
-  text-align: center;
-  text-transform: uppercase;
-  color: #ff0000;
-}
-
-p {
-  text-indent: 50px;
-  text-align: justify;
-  letter-spacing: 3px;
-}
-
-a {
-  text-decoration: none;
-  color: #008CBA;
-}
-img {
-  border-radius: 50%;
-}
-* {
-  box-sizing: border-box;
-}
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-    </style>
-</head>
-<body>
-    <ul>
-    <li><a href="login.php">login-register</a></li>
-        <li><a class="active" href="index.php">Home</a></li>
-        <li><a href="services.php">services</a></li>
-        <li><a href="reviews.php">reviews</a></li>
-        <li><a href="contact.php">Contact us</a></li>
-      </ul>
-      <div>
-      <h1> Our repair phone shop is a specialized establishment that offers services to fix or restore malfunctioning or damaged mobile phones. These shops employ technicians skilled in diagnosing and repairing various phone issues, including screen replacements, battery replacements, software troubleshooting, and hardware repairs, ensuring the phones function properly again. </h1>
-      <div class="row">
-        <div class="column">
-          <img src="Images\R.jpeg"  style="width:100%">
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/about/">About Us</a></li>
+              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+            
+            </ul>
+          </div>
         </div>
-        <div class="column">
-          <img src="34078_hd.jpg"  style="width:100%">
-        </div>
-        <div class="column">
-          <img src="OIP (1).jpeg"  style="width:100%">
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            &copy; Infinity Shop
+            </p>
+          </div>
+          </div>
         </div>
       </div>
-    </div>
-    <br>
-    <br>
-    <br>
-    <img src="istockphoto-1189142091-612x612.jpg"  style="width:50%" class="center">  <h1> Our technician is well-versed in the intricacies of various phone models and brands. From hardware malfunctions to software glitches, they have the expertise to identify and resolve issues efficiently.</h1> 
-</body>
+</footer>
+   
+    <!-- Boostrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
 </html>
