@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login-register</title>
+    <title>login/register</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
@@ -109,7 +109,7 @@ label{
     display: block;
     margin-top: 30px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
 }
 input{
     display: block;
@@ -161,13 +161,6 @@ button{
     </style>
 </head>
 <body>
-<ul>
-    <li><a href="login.php">login-register</a></li>
-        <li><a class="active" href="index.php">Home</a></li>
-        <li><a href="services.php">services</a></li>
-        <li><a href="reviews.php">reviews</a></li>
-        <li><a href="contact.php">contact us</a></li>
-      </ul>
     <div class="background">
         <div class="shape"></div>
         <div class="shape"></div>
@@ -182,6 +175,9 @@ button{
         <input type="password" placeholder="Password" id="password">
 
         <button>Login/register</button>
+        <a href='index.php'>
+    <button>Go Back</button>
+  </a> 
 </div>
 </body>
 </html>

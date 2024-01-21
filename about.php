@@ -11,7 +11,7 @@
 <body>
 <div class="container header-nav">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <h5>TShop</h5>
+        <img src="logo1.png"  width="60" height="60">
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -20,6 +20,9 @@
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="about.php">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="login.php">Login/Register</a>
                       </li>
                       <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -51,21 +54,32 @@
           
               <div class="col-lg-6">
                 
-                  <h1 class="title">TShop</h1>
+                  <h1 class="title">TShop About Us </h1>
                   <p class="lead">Welcome to TShop, your one-stop destination for cutting-edge technology products and solutions! At Tshop, we're passionate about bringing the latest advancements in the tech world directly to you, making your online shopping experience seamless and enjoyable.
 
 Explore a vast array of high-quality products from leading brands, carefully curated to cater to tech enthusiasts, professionals, and anyone who appreciates the power of innovation. Whether you're looking for the latest smartphones, state-of-the-art laptops, smart home devices, or innovative gadgets, we've got you covered.</p>
+<br>
+<br>
+<br>
+<p class="lead"> Our Shop Provides You With The Best Technology equipments Such As: 
+  <br>Gaming laptops
+  <br>Gaming Pc 
+  <br>Headsets
+  <br>Mouses
+  <br>Keyboards 
+  <br>Monitors
 </div>
 </div>
 </div>
-            
+
+                     
                   
                   <footer class="site-footer">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-6">
-            <h6>Infinity Shop</h6>
-             </i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+            <h6>Tshop</h6>
+             </i>Welcome to TShop, the ultimate hub for state-of-the-art technology products and solutions! At TShop, we are dedicated to delivering the newest breakthroughs in the tech realm directly to your fingertips, ensuring your online shopping journey is effortless and delightful. Discover an extensive selection of top-tier products from renowned brands, thoughtfully selected to meet the needs of tech enthusiasts, professionals, and anyone who values the impact of innovation. Whether you seek the most recent smartphones, cutting-edge laptops, intelligent home devices, or ingenious gadgets, rest assured, we have an unparalleled range to fulfill your desires.
           </div>
 
           
@@ -73,7 +87,7 @@ Explore a vast array of high-quality products from leading brands, carefully cur
           <div class="col-xs-6 col-md-3">
             <h6>Quick Links</h6>
             <ul class="footer-links">
-              <li><a href="http://scanfcode.com/about/">About Us</a></li>
+              <li><a href="about.php">About Us</a></li>
               <li><a href="contact.php">Contact Us</a></li>
             
             </ul>
