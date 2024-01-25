@@ -1,4 +1,7 @@
 <!doctype html>
+<?php
+session_start();
+?>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -9,42 +12,7 @@
   </head>
   <body> 
     <div class="container header-nav">
-        <nav class="navbar navbar-expand-lg navbar-light">
-        <img src="logo1.png"  width="60" height="60">
-             
-              
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="about.php">About</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="login.php">Login/Register</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Page
-                          </a>
-                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li>
-                            <li><a class="dropdown-item" href="https://www.reuters.com/technology/">News</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="contact.php">Contact</a></li>
-                          </ul>
-                       </li>
-                  </ul>
-                
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-           
-           </div>
-        </nav>
+    <?php include 'navbar/navbar.php'; ?>
     </div>
     <div class="hero">
     <div class="container">
@@ -62,7 +30,7 @@ Explore a vast array of high-quality products from leading brands, carefully cur
                   
             
                   <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Shop Now</button>
+                    <a class="btn btn-primary btn-lg px-4 me-md-2" href="categories.php">Shop Now</a>
                   </div>
                 
             </div>
@@ -113,42 +81,9 @@ Explore a vast array of high-quality products from leading brands, carefully cur
         </div>
         </div>
       </div>
-     
-        
-       
-    <footer class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-6">
-            <h6>Tshop</h6>
-             </i>Welcome to TShop, the ultimate hub for state-of-the-art technology products and solutions! At TShop, we are dedicated to delivering the newest breakthroughs in the tech realm directly to your fingertips, ensuring your online shopping journey is effortless and delightful. Discover an extensive selection of top-tier products from renowned brands, thoughtfully selected to meet the needs of tech enthusiasts, professionals, and anyone who values the impact of innovation. Whether you seek the most recent smartphones, cutting-edge laptops, intelligent home devices, or ingenious gadgets, rest assured, we have an unparalleled range to fulfill your desires.
-          </div>
 
-          
-
-          <div class="col-xs-6 col-md-3">
-            <h6>Quick Links</h6>
-            <ul class="footer-links">
-              <li><a href="about.php">About Us</a></li>
-              <li><a href="contact.php">Contact Us</a></li>
-            
-            </ul>
-          </div>
-        </div>
-        <hr>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-6 col-xs-12">
-            &copy; Tshop
-            </p>
-          </div>
-          </div>
-        </div>
-      </div>
-</footer>
-   
- 
+    <?php include 'footer/footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
+
 </html>

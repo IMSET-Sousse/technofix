@@ -1,0 +1,43 @@
+.login-layout{
+    width: 100% !important;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    display: flex;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    margin-top: 10em;
+    height: 35em;
+    max-height: 40em;
+}
+form{
+    width: 50%;
+}
+body{
+    background-color: rgb(212, 220, 223);
+}
+
+.login{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 1rem;
+    width: 100%;
+    padding: 0.8rem;
+}
+
+h1{
+    font-size: 3rem;
+    color: rgb(8, 8, 8);
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+::placeholder{
+    color: #e5e5e5;
+}

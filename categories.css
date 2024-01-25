@@ -1,0 +1,31 @@
+.list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: start;
+    padding: 2em;
+}
+.card-img-top{
+    height: 13rem;
+}
+
+.card-text{
+    height: 30%;
+    
+    color: black;
+}
+
+.card:hover{
+cursor: pointer;
+opacity: .8;
+}
+
+a{
+    text-decoration: none !important;
+    font-weight: bold;
+}
+
+
+
+    
